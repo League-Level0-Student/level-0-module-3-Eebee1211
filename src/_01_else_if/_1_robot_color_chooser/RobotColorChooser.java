@@ -21,14 +21,7 @@ public class RobotColorChooser {
 	     rob.penDown (); 
 	     rob.setPenWidth(10);
 		rob.setSpeed(1000);
-	     int count = 0;
-	      while ( count < 4) {
-	    	  rob.move(100);
-	    	  rob.turn(90);
-	    	  
 
-	    	  count+=1;
-	      }
 	     String color = JOptionPane.showInputDialog("What color do you want the robot to draw with?");
 	     if(color.equalsIgnoreCase("Red")) {
 	    	 rob.setPenColor(255,0,0); 
@@ -56,10 +49,20 @@ public class RobotColorChooser {
 	     else if(color.equalsIgnoreCase("Purple")) {
 	    	 rob.setPenColor(255,0,230); 
 	     }
-	     else {
-	    	 JOptionPane.showMessageDialog(null,"We are out of c" + color );
+	     else if(color.equalsIgnoreCase("Black")) {
+	    	 rob.setPenColor(0,0,0);
 	     }
-	     
+	     else {
+	    	 JOptionPane.showMessageDialog(null,"We are out of " + color );
+	     }
+	     int count = 0;
+	      while ( count < 4) {
+	    	  rob.move(100);
+	    	  rob.turn(90);
+	    	  
+
+	    	  count+=1;
+	      } 
 	     
 	     
 	     
