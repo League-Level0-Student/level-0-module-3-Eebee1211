@@ -20,7 +20,8 @@ public class CrazyCatLady {
 		if(cats >= 3) {
 			JOptionPane.showMessageDialog(null, "YOU ARE A CRAZY CAT LADY EVEN IF YOU ARE A MAN!!!"); 
 		}
-		if(cats < 3 ) {
+
+		if(cats == 2) {
 			
 		}
 		
