@@ -21,13 +21,17 @@ public class CrazyCatLady {
 			JOptionPane.showMessageDialog(null, "YOU ARE A CRAZY CAT LADY EVEN IF YOU ARE A MAN!!!"); 
 		}
 
-		if(cats == 2) {
-			
+		if(cats < 3 && cats>0) {
+			playVideo ("https://www.youtube.com/watch?v=jUD_hvfERfI");  
 		}
+		if(cats == 0 ) {
+			playVideo("https://www.youtube.com/watch?v=W_juM14WHNQ"); 
+		}
+		
 		
 	}
 
-	static void playVideo(String videoURL) {
+	static void playVideo(String videoURL ) {
 		try {
 			URI uri = new URI(videoURL);
 			java.awt.Desktop.getDesktop().browse(uri);
