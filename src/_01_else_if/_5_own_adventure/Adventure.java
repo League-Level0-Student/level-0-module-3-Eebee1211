@@ -6,31 +6,47 @@ public class Adventure {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      JOptionPane.showMessageDialog(null, "  " );
-      String coding = JOptionPane.showInputDialog("Is Jacob good at coding?"); 
-      if(coding.equalsIgnoreCase("Yes")) {
-    	  JOptionPane.showMessageDialog(null, "Jacob is really good at coding. He is so good that he makes millions every year from tournaments.");
-          JOptionPane.showMessageDialog(null, "But he was not always that good at coding.");
-          String where = JOptionPane.showInputDialog("Did Jacob take coding lessons at The League of Amazing Programmers?"); 
-          if(where.equalsIgnoreCase("Yes")) {
-        	  JOptionPane.showMessageDialog(null,"Since Jacob took lessons at The Leagure of Amazing Programmers, his coding skills skyrocketed.");
-              JOptionPane.showMessageDialog(null, "Since Jacob is so rich, he becomes the owner of many businesses and becomes the richest person in the world because his bussinesses are very high-tech and very popular." );
-          }
-          else if(where.equalsIgnoreCase("No")) {
-        	  JOptionPane.showMessageDialog(null,"Jacob was really good at figuring things by himself so learned how to code by watching videos. His parents knew that he did not need a teacher so they did not want to spend money paying for lessons at The League. After all, no point in paying people to teach somemone how to code when they can learn it themselves easily."); 
-              JOptionPane.showMessageDialog(null, "Because Jacob is such a quick learner, he is successful in every aspect of life.");
-          }
-      
-      
-      
-      
-      
-      }//Yes to "coding" ends here. Make another if statement.//
-        if(coding.equalsIgnoreCase("No")) {
-        	JOptionPane.showMessageDialog(null, "Jacob is not really good at coding. But it is not really his fault. He should have taken lessons at The League of Amazing Programmers");
-        	JOptionPane.showMessageDialog(null, "Jacob lives an ordinary life because SOMEONE mhmm (the person who is controlling the story) has the WONDERFUL idea to make him not good at coding.");
+   JOptionPane.showMessageDialog(null, "There was once a kid named William.");
+     String special = JOptionPane.showInputDialog("Is William special or is he normal?");
+     if(special.equalsIgnoreCase("Normal")) {
+    	 JOptionPane.showMessageDialog(null, "He lived a normal life because he is normal. THE END.");
+    	 JOptionPane.showMessageDialog(null,  "You may be asking why is the story so short? Well its your fault by saying that I am normal and not special. YOUR FAULT. Blame yourself!!!");
+     }
+        if(special.equalsIgnoreCase("Special")) {
+        	JOptionPane.showMessageDialog(null, "Of course he is special. Why wouldn't he. Who would choose that I am not special? If you already did this and you answered the other one... SHAME ON YOU");
+        String why = JOptionPane.showInputDialog("He is really good with math. But some could say that he isn't. Is it because he knows math that is above grade level but not so much at grade level or because he says that he is good at math but he never proved it? Answer with prove or level for your choice."); 
+         if(why.equalsIgnoreCase("prove")) {
+        	 JOptionPane.showMessageDialog(null,  "HOW DARE YOU THINK I AM A FRAUD. SHAME ON YOU, SHAME ON YOU! (I am not a fraud thank you very much)");
+         }
+        if(why.equalsIgnoreCase("level")) {
+        	JOptionPane.showMessageDialog(null, "William is better with math that is higher level than what he is doing at school. Probably is because he is not good with modeling or that kind of annoying stuff that takes a million years to complete");
+        	String grades = JOptionPane.showInputDialog("But does William have good grades?");
+        			if(grades.equalsIgnoreCase("Yes")) {
+        				JOptionPane.showMessageDialog(null,"William has very good grades and does his best in school.");
+        				String success = JOptionPane.showInputDialog("Is William successful in life after school?");
+        				if(success.equalsIgnoreCase("Yes")) {
+        					JOptionPane.showMessageDialog(null, "Since William is so smart, he gets into a good college and is extremely rich. (Has not happend yet but hopefully will)");
+        				}
+        if(success.equalsIgnoreCase("No")) {
+        	JOptionPane.showMessageDialog( null, " No, not possible. How could you think that I, William won't be successful? YOU MUST BE LYING!");
+        }
+        			
+        			
+        			
+        			
+        			
+        			
+        			}
+        if(grades.equalsIgnoreCase("NO")) {
+        	JOptionPane.showMessageDialog(null,"I can't believe you... you think i have bad grades... WELL YOU'RE WRONG! ");
+        }
+        			
+        			
+        			
         }
         
+        
+        }
         
         
         
